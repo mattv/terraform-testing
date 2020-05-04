@@ -1,6 +1,4 @@
 provider "aws" {
-  access_key = var.environment.access_key
-  secret_key = var.environment.secret_key
   region     = "us-east-1"
 }
 
